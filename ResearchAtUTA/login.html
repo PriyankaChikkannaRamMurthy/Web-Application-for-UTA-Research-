@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Research At UTA</title>
+	<link rel="stylesheet" type="text/css" href="css/researchatuta.css">
+</head>
+
+
+<body>
+
+	<div id="wrapper">
+
+	<h1>RESEARCH @UTA</h1>
+	<hr>
+
+	<div class = "logoimage">
+		<img src="images/utalogin.jpg" >
+	</div><br>
+
+	<p>Required fields are marked with an asterik &#42;.</p><br>
+	<form method="POST" action="home.html">
+
+	<label for="Name">*UTA ID:</label>
+	<input type="text" name="utaid" id="Name"
+	required="required">
+
+	<label for="myName">*Password:</label>
+	<input type="text" name="password" id="myName"
+	required="required">
+
+	<input type="submit" value="Login" name="Login">
+	<hr>
+</form>
+
+	<p>Required fields are marked with an asterik &#42;.</p>
+
+	<label for="FirstName">*First Name:</label>
+	<input type="text" name="myfName" id="Name"
+	required="required">
+
+	<label for="LastName">*Last Name:</label>
+	<input type="text" name="mylName" id="myName"
+	required="required">
+
+	<label for="myE-mail">*E-mail:</label>
+	<input type="email" name="myE-mail" id="myE-mail"
+	required="required">
+
+
+	<label for="myPhone">*Phone:</label>
+	<input type="text" name="myPhone" id="myPhone"
+	required="required">
+
+
+	<label for="Password">Password:</label>
+	<input type="date" name="myDate" id="myDate">
+
+	<label for="UTA ID">UTA ID:</label>
+	<input type="number" name="utaid" id="utaid"
+	max="14" min="1">
+
+	<input type="radio" name="user" value="Faculty"> Faculty
+	<input type="radio" name="user" value="Student"> Student 
+
+	<input type="submit" value="Register" name="Register">
+
+
+	</div>
+</body>
+</html>
